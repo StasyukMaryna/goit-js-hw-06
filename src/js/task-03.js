@@ -14,7 +14,6 @@ const images = [
 ];
 const listIm = document.querySelector("ul.gallery");
 listIm.style.display = "flex";
-console.log(listIm);
 const markup = images
   .map(
     (im) =>
